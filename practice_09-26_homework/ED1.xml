@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/caramessina/remiXML/master/remiXML.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/caramessina/remiXML/master/visualize_remiXML.xsl"?>
+<remiXML>
+    <metadata>
+        <original-title>The Lottery</original-title>
+        <doc-title>The Lottery Remix HW</doc-title>
+        <original-writer ID="SJ">Shirley Jackson</original-writer>
+        <remixer ID="ED">Erin Devereux</remixer>
+    </metadata>
+    <original>
+        <p>The children assembled first, of course. 
+            School was recently over for the summer, 
+            and the feeling of liberty sat uneasily 
+            on most of them; they tended to gather together 
+            quietly for a while before they broke into boisterous play.
+            and their talk was still of the classroom and the teacher, 
+            of books and reprimands. <expand playID="E1">Bobby Martin</expand> had already stuffed 
+            his pockets full of stones, and the other boys soon 
+            followed his example, selecting the smoothest and roundest 
+            stones; Bobby and Harry Jones and Dickie Delacroix-- 
+            the villagers pronounced this name "Dellacroy"--eventually 
+            made a great pile of stones in one corner of the square 
+            and guarded it against the raids of the other boys. 
+            <question playID="Q1">The girls stood aside</question>, talking among themselves, 
+            looking over their shoulders at rolled in the dust or 
+            clung to the hands of their older brothers or sisters.</p>p>
+        <p>Soon the men began to gather. surveying their own children, 
+            speaking of planting and rain, tractors and taxes. They stood 
+            together, away from the pile of stones in the corner, and 
+            their jokes were quiet and they smiled rather than laughed.
+            The women, wearing faded house dresses and sweaters, came 
+            shortly after their menfolk. They greeted one another and 
+            exchanged bits of gossip as they went to join their husbands. 
+            Soon the women, standing by their husbands, began to call to 
+            their children, and the children came reluctantly, having to 
+            be called four or five times. Bobby Martin ducked under his
+            mother's grasping hand and ran, laughing, back to the pile 
+            of stones. His father spoke up sharply, and <expand playID="E2">Bobby came quickly
+            and took his place between his father and his oldest brother.</expand></p>p>
+        <p>The lottery was conducted--as were the square dances, the teen club,
+            the Halloween program--by <question playID="Q2"><transform playID="T1">Mr. Summers. who had time and energy to
+            devote to civic activities. He was a round-faced, jovial man and he
+            ran the coal business, and people were sorry for him. because he 
+            had no children and his wife was a scold</transform></question>. When he arrived in the
+            square, carrying the black wooden box, there was a murmur of 
+            conversation among the villagers, and he waved and called. 
+            "Little late today, folks." The postmaster, Mr. Graves, followed 
+            him, carrying a three- legged stool, and the stool was put in the 
+            center of the square and Mr. Summers set the black box down on it. 
+            The villagers kept their distance, leaving a space between themselves
+            and the stool. and when Mr. Summers said, "Some of you fellows want 
+            to give me a hand?" there was a hesitation before two men. 
+            Mr. Martin and his oldest son, Baxter. came forward to hold the box 
+            steady on the stool while Mr. Summers stirred up the papers inside it.</p>
+    </original>
+    <play>
+        <analysis playREF=""></analysis>
+        <expand playREF="E1">Bobby was always seen as a leader. Maybe it was the strength in which he carried his young body or perhaps it was simple from socail cues he picked up on from his father. But no one ever crossed Bobby, the children simply followed his moves.</expand>
+        <expand playREF="#E2">No one ever mentions Bobby's little sister. If one were to try and guess how many siblings are in the family they would say, "why two boys". The family tries their best to raise their sons to be loud, proud, and strong while hiding away their little girl as much as possible.</expand>
+        <question playREF="Q1">What part of the culture in this village ephasizes these sterotypes of boys and girls?</question>
+        <question playREF="Q2">What if he drew out his own name?</question>
+        <transform playREF="T1">When I looked down and saw the black spot on my paper, I didnt know what to do. I was silent for some time, until the woman next to me laid her hand upon my shouldern and I realized she has seen what I had. After a moment of contemplating running away or lying, I thought, "at least I dont have kids who will be left alone. Better me than a single mother or father." </transform>
+    </play>
+</remiXML>
