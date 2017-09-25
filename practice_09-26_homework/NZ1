@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/caramessina/remiXML/master/remiXML.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/caramessina/remiXML/master/visualize_remiXML.xsl"?>
+<remiXML>
+    <metadata>
+        <original-title>The Lottery</original-title>
+        <doc-title>Remix The Lottery</doc-title>
+        <original-writer ID="SJ1">Shirley Jackson</original-writer>
+        <remixer ID="NZ1">Ning Zhang</remixer>
+    </metadata>
+    <original>
+        <p>Soon the women, standing by their husbands, began to call to their children,<question remixerID="RE1" playID="QU1">and the children came reluctantly,having to be called four or five times.</question><analysis remixerID="RE1" playID="ANA1">Bobby Martin ducked under his mother's grasping hand and ran, laughing, back to the pile of stones. His father spoke up sharply, and Bobby came quickly and took his place between his father and his oldest brother.</analysis> </p>
+        <p>The lottery was conducted--as were the square dances, the teen club, the Halloween program--by Mr. Summers. who had time and energy to devote to civic activities.<expand remixerID="RE1" playID="EX1">He was a round-faced, jovial man and he ran the coal business, and people were sorry for him. because he had no children and his wife was a scold.</expand></p>
+        <p>Soon the men began to gather. surveying their own children, speaking of planting and rain, tractors and taxes. <question remixerID="RE1" playID="QU2"> They stood together, away from the pile of stones in the corner,</question> and their jokes were quiet and they smiled rather than laughed. </p>
+        <p><transform remixerID="RE1" playID="TRA1">The girls stood aside, talking among themselves, looking over their shoulders at rolled in the dust or clung to the hands of their older brothers or sisters.</transform></p>
+    </original>
+    <play>
+        <analysis playREF="ANA1">Bobby Martin thought this was the time that school just finished for summer,so it was a great time to play.He wanted to stay and play with his friends but he knew there might be something important for his family.He was not afraid of his mom,but his dad. He took his place between his father and his oldest brother to made himself feel safety.</analysis>
+        <expand playREF="EX1">He was a round-faced, jovial man with kind smiles who ran the coal business, and people were sorry for him. because he had no children and his wife was a scold.The interesting thing was nearly every time after public activities or events,there must be someone asking him why he loved his wife so much,he always said he didn't know,and just follow his heart.</expand>
+        <question playREF="QU2">Why were they stood away from the pile of stones in the corner?</question>
+        <transform playREF="TRA1">Some of the girls joined in boys' game,while others stood by and watching the games.Kitty clung her hand of her older sister and asked who she woulb be when she grow up.</transform>
+        <question playREF="QU1">What do children thinking in mind? Why they came reluctantly?</question>
+    </play>
+</remiXML>
