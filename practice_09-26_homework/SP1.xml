@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/caramessina/remiXML/master/remiXML.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/caramessina/remiXML/master/visualize_remiXML.xsl"?>
+<remiXML>
+    <metadata>
+        <original-title>The Lottery</original-title>
+        <doc-title>The Lottery Remix</doc-title>
+        <original-writer ID="SJ">Shirley Jackson</original-writer>
+        <remixer ID="SP1">Sarah Porter</remixer>
+    </metadata>
+    <original>
+        <p>
+        The children assembled first, of course. School was recently over for the summer,
+        and <question remixerID="SP1" playID="Q1">the feeling of liberty sat uneasily on most of them;</question> they tended to gather 
+        together quietly for a while before they broke into boisterous play. and their talk 
+        was still of the classroom and the teacher, of books and reprimands. <analysis remixerID="SP1" playID="A1">Bobby 
+        Martin had already stuffed his pockets full of stones, and the other boys soon 
+        followed his example, selecting the smoothest and roundest stones; Bobby and 
+        Harry Jones and Dickie Delacroix-- the villagers pronounced this name 
+        "Dellacroy"--eventually made a great pile of stones in one corner of the square 
+        and guarded it against the raids of the other boys. The girls stood aside, talking 
+        among themselves, looking over their shoulders at rolled in the dust or clung to 
+        the hands of their older brothers or sisters.</analysis>
+        </p> <p>
+        Soon the men began to gather. surveying their own children, speaking of planting 
+        and rain, tractors and taxes. They stood together, away from the pile of stones in 
+        the corner, and their jokes were quiet <expand remixerID="SP1" playID="E1">and they smiled rather than laughed.</expand> The 
+        women, wearing faded house dresses and sweaters, came shortly after their 
+        menfolk. They greeted one another and exchanged bits of gossip as they went to 
+        join their husbands. Soon the women, standing by their husbands, began to call to 
+        their children, and the children came reluctantly, having to be called four or five 
+        times. Bobby Martin ducked under his mother's grasping hand and ran, laughing, 
+        back to the pile of stones. His father spoke up sharply, and Bobby came quickly 
+        and took his place between his father and his oldest brother.
+        </p> <p>
+        The lottery was conducted--as were the square dances, the teen club, the 
+        Halloween program--by Mr. Summers. who had time and energy to devote to 
+        civic activities. <transform remixerID="SP1" playID="T1">He was a round-faced, jovial man and he ran the coal business, 
+        and people were sorry for him. because he had no children and his wife was a scold.</transform>
+        When he arrived in the square, carrying the black wooden box, there was a 
+        murmur of conversation among the villagers, and he waved and called. "Little late 
+        today, folks." The postmaster, Mr. Graves, followed him, carrying a three- legged 
+        stool, and the stool was put in the center of the square and Mr. Summers set the 
+        black box down on it. <question remixerID="SP1" playID="Q2">The villagers kept their distance, leaving a space between 
+        themselves and the stool.</question> and when Mr. Summers said, "Some of you fellows want 
+        to give me a hand?" there was a hesitation before two men. Mr. Martin and his 
+        oldest son, Baxter. came forward to hold the box steady on the stool while Mr. 
+        Summers stirred up the papers inside it.
+       </p>
+    </original>
+    <play>
+        <analysis playREF="A1">The boys' collection of the smooth and perfect stones serves as a representation of their pride as a group and the lengths at which they will take to preserve and guard it from those who would seek to attack or dirty it.</analysis>
+        <expand playREF="E1">This was all quite normal for the fathers of the children; they were used to some of the more silly antics of their sons, and the stones were nothing to raise an eyebrow about. So rather they kept their voices down and enjoyed surveying youth in action.</expand>
+        <question playREF="Q1">Why would the "feeling of liberty" be an uncomfortable thought for a bunch of children? Isn't this what they are always looking for?</question>
+        <question playREF="Q2">What is it about this box that has such a profound effect on the people of this society? Why does it hold so much power?</question>
+        <transform playREF="T1">The truth of the matter was, Mr. Summers had been putting on an act of happiness for as long as he could remember. The life he was living- a life of cold, hard loneliness- had taken such a toll on him that it now took all of the strength in him to maintain an image of happiness. However, each night he lay awake in bed, crying softly, wishing for a family, or at least someone to keep him warm at night; someone who loved him.</transform>
+    </play>
+</remiXML>
