@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/caramessina/remiXML/master/remiXML.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/caramessina/remiXML/master/visualize_remiXML.xsl"?>
+<remiXML>
+    <metadata>
+        <original-title>The Lottery</original-title>
+        <doc-title>The Lottery Remix</doc-title>
+        <original-writer ID="SJ">Shirley Jackson</original-writer>
+        <remixer ID="BA1">Brandon Alexander</remixer>
+    </metadata>
+    <original>
+        <p>The children assembled first, of course. <question playID="Q1" remixerID="BA1">School was recently over for the summer, and the feeling of liberty sat uneasily on most of them</question>; 
+            they tended to gather together quietly for a while before they broke into boisterous play. and their talk was still of the classroom and the teacher, of books and reprimands. Bobby Martin 
+            had already stuffed his pockets full of stones, and the other boys soon followed his example, selecting the smoothest and roundest stones; Bobby and Harry Jones and Dickie Delacroix-- 
+            the villagers pronounced this name "Dellacroy"--<expand playID="E1" remixerID="BA1">eventually made a great pile of stones in one corner of the square and guarded it against the raids of 
+            the other boys.</expand> The girls stood aside, talking among themselves, looking over their shoulders at rolled in the dust or clung to the hands of their older brothers or sisters. </p>
+        <p>Soon the men began to gather. surveying their own children, speaking of planting and rain, tractors and taxes. They stood together, away from the pile of stones in the corner, and their 
+            jokes were quiet and they smiled rather than laughed. The women, wearing faded house dresses and sweaters, came shortly after their menfolk. They greeted one another and exchanged bits 
+            of gossip as they went to join their husbands. Soon the women, standing by their husbands, began to call to their children, and the children came reluctantly, having to be called four 
+            or five times. <transform playID="T1" remixerID="BA1">Bobby Martin ducked under his mother's grasping hand and ran, laughing, back to the pile of stones. His father spoke up sharply, 
+            and Bobby came quickly and took his place between his father and his oldest brother.</transform> </p>
+        <p>The lottery was conducted--as were the square dances, the teen club, the Halloween program--by <question playID="Q2" remixerID="BA1">Mr. Summers. who had time and energy to devote to civic
+            activities. He was a round-faced, jovial man and he ran the coal business, and people were sorry for him. because he had no children and his wife was a scold. </question>When he arrived 
+            in the square, carrying the black wooden box, there was a murmur of conversation among the villagers, and he waved and called. "Little late today, folks." <analysis playID="A1" 
+            remixerID="BA1">The postmaster, Mr. Graves, followed him, carrying a three- legged stool, and the stool was put in the center of the square and Mr. Summers set the black box down on it.
+            The villagers kept their distance, leaving a space between themselves and the stool. and when Mr. Summers said, "Some of you fellows want to give me a hand?" there was a hesitation 
+            before two men. Mr. Martin and his oldest son, Baxter. came forward to hold the box steady on the stool while Mr. Summers stirred up the papers inside it.</analysis> </p>
+    </original>
+    <play>
+        <analysis playREF="A1">If there was any doubt before, this is now definitely a very strange scenario. Through their body language it is clear that the villagers are afraid of this mysterious
+            black box, implying that they fear the titled "lottery." Also, the two men who help Mr. Summers are Mr. Martin and his oldest son, both of whom are characterized as stern or rigid at the 
+            end of paragraph 2. </analysis>
+        <expand playREF="E1">The raids were spectacular displays of strategic warfare, with elaborate plans often employed to try and get away with the smoothest and roundest stones. While their 
+            approaches were wildly diverse (distractions, negotiation, brute force, etc.), all of the boys put excessive time and energy into the raids. It was an act that made them feel powerful,
+            like they had a say in things. </expand>
+        <question playREF="Q1">Why do they feel this way about summer? I certainly never have.</question>
+        <question playREF="Q2"> If Mr. Summers ran the coal business and his wife was a scold, how did he have time and energy to devote to "civic" activities? Surely a busy work life and an 
+            unpleasant home life would prevent a man from being "jovial." Even his name, Mr. "Summers," is suspicious...</question> 
+        <transform playREF="T1">"His father spoke up sharply," but Bobby wouldn't oblige. Something was nagging at him to run, to leave this all behind. He was still a child, but the more he thought
+            about it, the more he realized that deep down he couldn't stand The Lottery, that he couldn't go on with this life anymore. Into the woods Johnny ran. "What will happen to him 
+            father?" asked Baxter. But every villager knew the punishment for abandonment, and Bobby was never heard from again.</transform>
+    </play>
+</remiXML>
