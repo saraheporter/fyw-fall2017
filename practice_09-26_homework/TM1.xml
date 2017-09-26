@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/caramessina/remiXML/master/remiXML.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/caramessina/remiXML/master/visualize_remiXML.xsl"?>
+<remiXML>
+    <metadata>
+        <original-title>The Lottery</original-title>
+        <doc-title>The Lottery Remix</doc-title>
+        <original-writer ID="RJ1">Shirley Jackson</original-writer>
+        <remixer ID="TM1">Tommy Ma</remixer>
+    </metadata>
+    
+    <original>
+        <p>The children assembled first, of course. School was recently over for the summer, and the <expand remixerID="TM1" playID="EX1">feeling of liberty sat uneasily on most of them</expand>; they tended to gather together quietly for a while before they broke into boisterous play. and their talk was still of the classroom and the teacher, of books and reprimands. Bobby Martin had already stuffed his pockets full of stones, and the other boys soon followed his example, selecting the smoothest and roundest stones; Bobby and Harry Jones and Dickie Delacroix-- <question remixerID="TM1" playID="QU1">the villagers pronounced this name "Dellacroy"</question>--eventually made a great pile of stones in one corner of the square and guarded it against the raids of the other boys.<transform remixerID="TM1" playID="TRA1"> The girls stood aside, talking among themselves,</transform> looking over their shoulders at rolled in the dust or clung to the hands of their older brothers or sisters.</p>
+        <p><analysis remixerID="TM1" playID="ANA1">Soon the men began to gather. surveying their own children, speaking of planting and rain, tractors and taxes.</analysis> They stood together, away from the pile of stones in the corner, and their jokes were quiet and they smiled rather than laughed. The women, wearing faded house dresses and sweaters, came shortly after their menfolk. <expand remixerID="TM1" playID="EX2">They greeted one another and exchanged bits of gossip </expand>as they went to join their husbands. Soon the women, standing by their husbands, began to call to their children, and the children came reluctantly, having to be called four or five times. Bobby Martin ducked under his mother's grasping hand and ran, laughing, back to the pile of stones. His father spoke up sharply, and Bobby came quickly and took his place between his father and his oldest brother.</p>
+        <p><question remixerID="TM1" playID="QU2">The lottery</question> was conducted--<analysis remixerID="TM1" playID="ANA2">as were the square dances, the teen club, the Halloween program--by Mr. Summers</analysis>. who had time and energy to devote to civic activities. He was a round-faced, jovial man and he ran the coal business, and people were sorry for him. because he had no children and his wife was a scold. When he arrived in the square, carrying the black wooden box, there was a murmur of conversation among the villagers, and he waved and called. "Little late today, folks." The postmaster, Mr. Graves, followed him, carrying a three- legged stool, and the stool was put in the center of the square and Mr. Summers set the black box down on it. The villagers kept their distance, leaving a space between themselves and the stool. and when Mr. Summers said, "Some of you fellows want to give me a hand?" <question remixerID="TM1" playID="QU3">there was a hesitation </question>before two men. Mr. Martin and his oldest son, Baxter. came forward to hold the box steady on the stool while Mr. Summers stirred up the papers inside it.</p>
+    </original>
+
+    <play>
+        <analysis playREF="ANA1">Based on the relaxy tone, I feel like author set the story in a small farming town. The secense proablly happens at sunset. They gathered together to do some activies after diner.</analysis>
+        <analysis playREF="ANA2">It seems Mr.Summers hosted lots of events for the town. He may be very rich. According to his coal business, the town could be built around his coal mine. Most of the people could be working on his mine. That may explain why he devote a lot to the civic activities. He wants to make his work happy.</analysis>
+        <expand playREF="EX1">All the sudden, they did not know what to do. They did not need to struggle with homework every night; They did not need to worry about the quiz that is coming up next week; They did not need to deal with that one kid in their study group. They had so many plans for a wonderful summer. However, when the summer just kicked off, they did not know how to start it. They used to have so many works. They used to be so busy. They hated it, but in the bottom of their heart, they wished they were kept busy by the school. Even though they were sightly shocked by the vacation, they would wish they have more time to play really soon. </expand>
+        <expand playREF="EX2">"Hello, Mrs. Martin! How are you?"
+                              "I am certainly well. How was little Harry?"
+                              "Same as usual. I am worry about his school work. He did not do very well on the final."
+                              "I have same concernt for Bobby. They should spend more time on study!"
+                              "I know right. Have you heard the thing about Mr.Summers' oldest son?"
+                              "Oh my god, you also heard about that?"
+                              "I met Mrs.Delacroix at the market today. She really filled me in."
+                              "We should not talked about it here. But, yes, I knew it"</expand>
+        <transform playREF="TRA1">Girls went to the playground. They checked out boy's "trophies" and whispered about how Bobby's stone pile looked so much better than Geroge's.</transform>
+        <question playREF="QU1">Why does the pronunciation mention here?</question>
+        <question playREF="QU2">What is the reward for the lottery? How do people participate in the lottery?</question>
+        <question playREF="QU3">Why does people hesitate?</question>
+    </play>
+</remiXML>
